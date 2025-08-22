@@ -1,3 +1,5 @@
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo" style="width:50px; height:auto;">
+
 # HTML: El Lenguaje que Construyó la Web
 HTML (HyperText Markup Language) creado en 1990 por Tim Berners-Lee, un científico británico que trabajaba en el CERN (Organización Europea para la Investigación Nuclear) en Ginebra, Suiza. Berners-Lee no solo creó HTML, sino que también desarrolló simultáneamente el protocolo HTTP y las URLs, estableciendo los tres pilares fundamentales de la World Wide Web.
 
