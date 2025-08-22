@@ -71,6 +71,13 @@ Mantenimiento centralizado: Cambios globales desde un único archivo
 Carga optimizada: Los navegadores pueden cachear las hojas de estilo
 
 # 
+CSS se puede escribir dentro del archivo HTML, usando el estilo como elemento `<style>` o como atributo de algún otro elemento `<p style="">`. También se puede escribir en un archivo separado, solo CSS, importándolo al documento HTML de la siguiente manera:
+
+```html
+<link rel="stylesheet" href="nombre_del_archivo_css.css">
+```
+
+# 
 ## Sistema de Selectores
 CSS utiliza un sofisticado sistema de selectores que permite targeting granular de elementos:
 
