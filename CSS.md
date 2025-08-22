@@ -231,3 +231,5 @@ Ejemplo: `#header` `.nav` `a:hover` = 100 + 10 + 1 + 10 = 121 puntos
 - Composite layers: Aceleración hardware para transformaciones y opacity
 
 Esta arquitectura técnica ha convertido a CSS en un lenguaje declarativo extremadamente poderoso, capaz de manejar desde layouts simples hasta interfaces complejas con animaciones sofisticadas, todo mientras mantiene la separación fundamental entre contenido y presentación que motivó su creación original.
+#
+# [ Documentación y ejemplos ](https://developer.mozilla.org/en-US/docs/Web/CSS)
