@@ -66,4 +66,4 @@ Las versiones modernas incluyen APIs avanzadas para geolocalización, almacenami
 
 Esta combinación de simplicidad conceptual y potencia técnica ha permitido que HTML se mantenga como el lenguaje fundamental de la web durante más de tres décadas.
 
-# [Documentación y ejemplos]()
+# [Documentación y ejemplos](https://www.w3schools.com/html/html_intro.asp)
