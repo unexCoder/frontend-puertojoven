@@ -244,6 +244,14 @@ Esta arquitectura técnica ha convertido a CSS en un lenguaje declarativo extrem
 
 ## [Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
 
+Reset Básico: Elimina márgenes, paddings y establece box-sizing: border-box para todos los elementos.
+
+Reset Completo (Eric Meyer): Un reset más exhaustivo que elimina estilos de prácticamente todos los elementos HTML.
+
+Reset Moderno: Inspirado en Normalize.css, mantiene algunos estilos útiles mientras estandariza el comportamiento entre navegadores.
+
+Reset Personalizado: Un enfoque híbrido que combina lo mejor de los otros métodos y añade algunas utilidades.
+
 ```css
 /* ========================================
    1. RESET CSS BÁSICO (Minimalista)
