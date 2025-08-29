@@ -1,5 +1,6 @@
-# Origen e Historia de CSS
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="HTML5 Logo" style="width:100px; height:auto;">
 
+# CSS: Estilo y diseño
 ## Los Orígenes y su Creador
 **CSS (Cascading Style Sheets)**, fue creado por Håkon Wium Lie en 1994, mientras trabajaba en el CERN junto a Tim Berners-Lee, el inventor de la World Wide Web. Lie propuso inicialmente el concepto en un documento titulado "Cascading HTML Style Sheets - A Proposal", presentado en la conferencia Web '94 en Chicago.
 
