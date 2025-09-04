@@ -1,11 +1,51 @@
-/* header {
-    background: red;
+/* ========================================
+   1. RESET CSS BÁSICO (Minimalista)
+======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-main {
-    background: blue;
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: 1.5;
+    color: white;
+    font-family:Helvetica, sans-serif;
+}
+
+
+header {
+    background: black;
 }
 
 footer {
     background: green;
-} */
+}
+
+.menu {
+    color: rgb(100,100,50);
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: white;
+}
+
+#homelink {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.intro {
+    background: rgba(100,100,50,60%);
+    border: solid 5px red;
+    padding: 0 0 100px 0;
+}
+.intro p{
+    font-style: italic;
+}

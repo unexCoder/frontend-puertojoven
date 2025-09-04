@@ -46,6 +46,8 @@ Hoy CSS no solo cumple su propósito original, sino que ha crecido hasta convert
 # Características Técnicas
 ## CSS (Cascading Style Sheets)
 
+Las "Hojas de Estilo en Cascada" (CSS) describen un conjunto de reglas de formato que controlan la apariencia de una página web.
+
 ### Cascading (Cascada)
 El término "Cascading" es el núcleo conceptual más importante de CSS y se refiere a la metodología jerárquica para resolver conflictos entre reglas de estilo:
 
