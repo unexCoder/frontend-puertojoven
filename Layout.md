@@ -275,6 +275,7 @@ Factor de encogimiento
 }
 .content { flex: 1; }
 ```
+## [Guía completa de Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 ## [Flexbox Adventure](https://codingfantasy.com/games/flexboxadventure)
 
 #
