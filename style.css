@@ -21,6 +21,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 1.75em; */
+    
 }
 
 header {
@@ -33,11 +34,11 @@ header {
     padding: 0 20px; */
 }
 main {
-    background: rgba(100,100,50,60%);
+    background: rgba(100,100,50);
 }
 
 footer {
-    background: green;
+    background: #000000;
 }
 
 .menu {
@@ -59,7 +60,6 @@ footer {
 }
 
 .intro {
-    border: solid 5px red;
     padding: 0 0 100px 0;
 }
 .intro p{
