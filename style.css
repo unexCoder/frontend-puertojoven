@@ -1,0 +1,148 @@
+/* ========================================
+   1. RESET CSS BÁSICO (Minimalista)
+======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: 1.5;
+    color: white;
+    font-family:Helvetica, sans-serif;
+    /* font-family: "Roboto Mono", monospace; */
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em; 
+    
+}
+
+header {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: flex-end;
+    padding: 0 20px;
+}
+
+main {
+    background: rgba(100,100,50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 85vh;
+}
+
+footer {
+    background: #000000;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.menu a{
+    color: rgb(100,100,50);
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.logo:hover {
+    color: rgb(100,100,50);
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    width: 60vw;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 40px 0;
+}
+.intro p{
+    font-style: italic;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+#texto-intro  {
+    width: 60%;
+}
+
+.titles {
+    width: 60%;
+}
+
+
+.roboto-mono-variable {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.enlace button {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background: #000000;
+}
+
+.enlace button:hover {
+    background: transparent;
+    border: solid 1px #000000;
+}
+.enlace button:hover a{
+    color: #000000;
+}
+.enlace a {
+    color:  rgb(100,100,50);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer p {
+    color:  rgb(100,100,50);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#footer-text a{
+    color:  rgb(100,100,50);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .intro {
+        flex-direction: column;
+        text-align: center;
+        width: 90vw;
+    }
+    #texto-intro {
+        width: 100%;
+    }
+}
+
+
