@@ -1,16 +1,31 @@
 .grid {
     color: black;
     display: grid;
-    /* grid-template-columns: 100px 200px 100px; */
+    grid-template-columns: 100px 200px 100px;
     /* grid-template-columns: repeat(3, 1fr); */
     /* grid-template-columns: 1fr 2fr 1fr; */
     /* grid-template-columns: 100px 200px 100px; */
-    /* grid-template-rows: 50px auto 50px; */
+    grid-template-rows: 50px auto 50px;
 
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-
+    /* grid-template-columns: repeat(8, 1fr); */
+    /* grid-template-rows: repeat(12, 1fr); */
+    
     gap: 5px;
-
-
+    
+    /* grid-template-columns: repeat(8, 1fr  2fr);
+    grid-template-rows: repeat(12, 1fr  2fr 1fr);
+    gap: 2px; */
 }
+
+/* 
+.grid :nth-child(odd) {
+    background-color: chartreuse;
+}
+
+.grid :nth-child(even) {
+    background-color: crimson;
+}
+
+.grid > :hover {
+    background-color: gray;
+} */
