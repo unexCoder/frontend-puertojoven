@@ -1,7 +1,5 @@
 console.log('Welcome coder!');
-console.log('Welcome codersss');
-console.log('\\unexCoder');
-
+console.log('GEOLOCATION');
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(
         (position) => {
