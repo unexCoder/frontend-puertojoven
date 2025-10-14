@@ -1,4 +1,4 @@
-# Terminal
+# Command Line Interface (CLI)
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Terminalicon2.png" alt="Terminal Logo" style="width:200px; height:auto;">
 
 El terminal (también llamado consola, línea de comandos o CLI - Command Line Interface) es una interfaz de texto que permite interactuar con el sistema operativo mediante comandos escritos, sin usar el mouse ni elementos gráficos.
