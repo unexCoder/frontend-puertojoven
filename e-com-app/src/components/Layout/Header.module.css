@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header nav a:hover {
+  color: #666;
+}
