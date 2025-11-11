@@ -4,6 +4,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Cart from '../pages/Cart';
 import { NotFound } from '../pages/NotFound';
+import { ProductDetail } from '../pages/ProductDetail';
 
 const AppRoutes = () => {
     return (
@@ -12,6 +13,7 @@ const AppRoutes = () => {
             <Route path="/about" element={<About />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/*" element={<NotFound />} />
+            <Route path="/product/:id" element={<ProductDetail />} />
         </Routes>
     );
 };
