@@ -1,7 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import styles from './Card.module.css';
 
-// export const Card = ({ title, description, price, image, category, stock }) => {
+// export const Card = ({ title, description, price, image, category, stock, discount, offer }) => {
+
+//     if (offer) {
+//         price = Math.round( price - ( price * (discount/100))); // Apply discount   
+//     }
+    
 //     return (
 //         <div>
 //             {/* Product Image */}
@@ -40,11 +46,9 @@ import { Link } from 'react-router-dom';
 export const Card = ({ ...props }) => {
 
     // console.log(props)
-    const detailUrl = props.detailUrl || `/product/${props.id}`;
+    const detailUrl = props.detailUrl || `/products/${props.id}`;
     return (
         <div>
-            <Link to={detailUrl}>
-
                 {/* Product Image */}
                 <div>
                     {props.image ? (
@@ -66,7 +70,8 @@ export const Card = ({ ...props }) => {
                             {props.category}
                         </span>
                     )}
-                    <h3>{props.title}</h3>
+                    
+                    <Link to={detailUrl} className={styles.link}><h3>{props.title}</h3></Link>
                     <p>{props.description}</p>
 
                     {/* Price and Action */}
@@ -77,7 +82,6 @@ export const Card = ({ ...props }) => {
                         </button>
                     </div>
                 </div>
-            </Link>
         </div>
     );
 };
